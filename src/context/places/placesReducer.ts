@@ -4,7 +4,6 @@ type PlacesAction = {
     type: 'setUserLocation', payload: [ number, number ];
 }
 
-
 export const placesReducer = ( state: PlacesState, { type, payload }: PlacesAction ): PlacesState => {
 
     switch (type) {
