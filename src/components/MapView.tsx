@@ -1,5 +1,5 @@
 import { useContext, useLayoutEffect, useRef } from "react"
-import { Map } from 'mapbox-gl';
+import { Map, NavigationControl } from 'mapbox-gl';
 
 import { MapContext, PlacesContext } from "../context"
 import { Loading } from "./Loading"
@@ -19,7 +19,7 @@ export const MapView = () => {
         center: userLocation, // starting position [lng, lat]
         zoom: 14 // starting zoom
       });
-
+      map.addControl( new NavigationControl(), 'bottom-right' );
       setMap(map);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps

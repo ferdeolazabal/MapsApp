@@ -8,7 +8,7 @@ export const ReactLogo = () => {
             style={{
                 position: 'fixed',
                 bottom: '20px',
-                right: '20px',
+                right: '40px',
                 width: '80px',
             }}
             />

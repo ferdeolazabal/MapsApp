@@ -25,6 +25,10 @@
     padding: 7px;
     position: fixed;
     top: 20px;
-    width: 250px;
+    width: 350px;
     z-index: 999;
+}
+
+.pointer{
+    cursor: pointer;
 }
