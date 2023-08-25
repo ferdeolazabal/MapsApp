@@ -1,5 +1,7 @@
 # Map - App
 
+Project created in React consuming the MapBox api, which allows you to search for different places around the world
+
 ## Live Test
 
 [https://ferdeolazabal-maps.netlify.app/](https://ferdeolazabal-maps.netlify.app/)
