@@ -3,6 +3,7 @@
 Project created in React consuming the MapBox api, which allows you to search for different places around the world
 
 ## Live Test
+[![Netlify Status](https://api.netlify.com/api/v1/badges/420c439f-604f-4b8f-a405-049bfc0db7c2/deploy-status)](https://app.netlify.com/sites/ferdeolazabal-maps/deploys)
 
 [https://ferdeolazabal-maps.netlify.app/](https://ferdeolazabal-maps.netlify.app/)
 
